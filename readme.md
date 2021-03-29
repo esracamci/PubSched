@@ -19,13 +19,13 @@ python pubmed7.py
 
 >$ python pubmed7.py
 >
->Tureci, Ozlem
+>Doudna, Jennifer A
 >
->   Patient-reported outcomes from the phase II FAST trial of zolbetuximab plus EOX compared to EOX alone as first-line treatment of patients with metastatic CLDN18.2+ gastroesophageal adenocarcinoma.
->     'Lordick F', 'Al-Batran SE', 'Ganguli A', 'Morlock R', 'Sahin U', 'Tureci O'
->     Gastric Cancer. 2021 Mar 23. pii: 10.1007/s10120-020-01153-6. doi: 10.1007/s10120-020-01153-6.
+>   Cancer-specific loss of TERT activation sensitizes glioblastoma to DNA damage.
+>     'Amen AM', 'Fellmann C', 'Soczek KM', 'Ren SM', 'Lew RJ', 'Knott GJ', 'Park JE', 'McKinney AM', 'Mancini A', 'Doudna JA', 'Costello JF'
+>     Proc Natl Acad Sci U S A. 2021 Mar 30;118(13). pii: 2008772118. doi: 10.1073/pnas.2008772118.
 >
->Moser, May-Britt
+>Charpentier, Emmanuelle
 >
 >   ?
 >     ?
@@ -41,8 +41,14 @@ python pubmed7.py
 >     'Ozdemir ZN', 'Sahin U', 'Yildirim Y', 'Kaya CT', 'Ilhan O'
 >     Hematol Transfus Cell Ther. 2021 Mar 14. pii: S2531-1379(21)00034-1. doi: 10.1016/j.htct.2021.01.009.
 >
-
-     
+>Tureci, Ozlem
+>
+>   Patient-reported outcomes from the phase II FAST trial of zolbetuximab plus EOX compared to EOX alone as first-line treatment of patients with metastatic CLDN18.2+ gastroesophageal adenocarcinoma.
+>     'Lordick F', 'Al-Batran SE', 'Ganguli A', 'Morlock R', 'Sahin U', 'Tureci O'
+>     Gastric Cancer. 2021 Mar 23. pii: 10.1007/s10120-020-01153-6. doi: 10.1007/s10120-020-01153-6.
+>
      
 ## notes
-Future versions will bypass empty records, and remove the square brackets around the author names.
+1. Empty records appear with three question marks; future versions will bypass empty records.
+2. Duplicate citations appear.
+3. Future versions should eliminate the square brackets around the author name outputs.
