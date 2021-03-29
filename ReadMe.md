@@ -1,8 +1,10 @@
 # PubSched
 Runs pubmed7 once a week.
+<a href="https://schedule.readthedocs.io/"> Schedule</a>
+
 
 # pubmed7
-A bit of code that searches PubMed for entries published in a given amount of time by a custom author list. Can be run on its own.
+pubmed7 is bit of code that searches PubMed for entries published in a given amount of time by a custom author list. Can be run on its own.
 
 Search parameters are defined by the value <a href="https://www.ncbi.nlm.nih.gov/books/NBK25499/">reldate</a> and the author list names.txt .
 
