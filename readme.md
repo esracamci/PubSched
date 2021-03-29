@@ -11,4 +11,5 @@ Search parameters are defined by a text file (names.txt) and reldate.
 2. Edit names.txt to contain the names of your labmates, collaborators, or other scientists.
 3. Open your terminal and point it to the directory containing the files.
 4. Run the code:
-`<python pubmed7.py>'
+```python pubmed7.py'''
+
