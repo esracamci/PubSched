@@ -1,9 +1,7 @@
 # pubmed7
 This is a bit of code that searches PubMed for recent publications by a list of authors. It's most useful as part of a larger tool, PubSched.
 
-Search parameters are defined by a list of names in the text file names.txt and the value reldate.
-
-> <a href="https://www.ncbi.nlm.nih.gov/books/NBK25499/">reldate:</a> When reldate is set to an integer n, the search returns only those items that have a date specified by datetype within the last n days.
+Search parameters are defined by a list of names in the text file names.txt and the value <a href="https://www.ncbi.nlm.nih.gov/books/NBK25499/">reldate</a>.
 
 ## To run pubmed7 immediately
 
