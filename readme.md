@@ -1,16 +1,19 @@
 # pubmed7
 This is a bit of code that searches PubMed for recent publications by a list of authors. It's most useful as part of a larger tool, PubSched.
 
-Search parameters are defined by a text file (names.txt) and reldate.
+Search parameters are defined by a list of names in the text file names.txt and the value reldate.
 
 > <a href="https://www.ncbi.nlm.nih.gov/books/NBK25499/">reldate:</a> When reldate is set to an integer n, the search returns only those items that have a date specified by datetype within the last n days.
 
 ## To run pubmed7 immediately
 
 1. Download files.
-2. Edit names.txt to contain the names of your labmates, collaborators, or other scientists.
-3. Open your terminal and point it to the directory containing the files.
-4. Run the code:
+2. Edit the Entrez.email field to comply with <a href="https://www.ncbi.nlm.nih.gov/books/NBK25497/">NCBI e-utility policies</a>.
+``` 
+Entrez.email = "your-email@address.com"
+```
+3. Edit names.txt to contain the names of your labmates, collaborators, or other scientists.
+4. Open your terminal and point it to the directory containing the files, and run:
 ```
 python pubmed7.py
 ```
