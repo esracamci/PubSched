@@ -1,6 +1,6 @@
 # PubSched
 Runs pubmed7 once a week.
-<a href="https://schedule.readthedocs.io/"> Schedule</a>
+<a href="https://schedule.readthedocs.io/"> Modify the schedule</a>
 
 
 # pubmed7
