@@ -14,6 +14,7 @@ Search parameters are defined by a text file (names.txt) and reldate.
 ```
 python pubmed7.py
 ```
+5. If a publication has appeared on PubMed under that author's name in the last 7 days, it will be printed.
 
 ## sample output for March 28, 2021:
 
