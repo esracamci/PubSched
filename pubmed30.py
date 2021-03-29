@@ -1,11 +1,14 @@
+
+
 ##### iterate through the list of names in terms.txt
 terms = open("names.txt").readlines()
 for g in terms:
 
+
 ##### query pubmed for each term (author name), return PMIDs, print record
     from Bio import Entrez
-    Entrez.email = "esracamci@gmail.com" # issa me, mario (NCBI likes to know)
-    handle = Entrez.esearch(db="pubmed", term=g, reldate=30) # reldate=n, where n is days from today
+    Entrez.email = "your-email@address.com" # per NCBI, please edit to contain your email 
+    handle = Entrez.esearch(db="pubmed", term=g, reldate=7) # reldate=n, where n is days from today
     record = Entrez.read(handle)
     handle.close()
     idlist = record["IdList"]
