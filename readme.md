@@ -71,4 +71,4 @@ Sahin, Ugur
      
      
 ## notes
-I'm planning work out how to bypass empty records.
+Future versions will bypass empty records.
