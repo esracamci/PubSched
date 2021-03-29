@@ -1,4 +1,4 @@
-#PubSched
+# PubSched
 Runs pubmed7 once a week.
 
 # pubmed7
