@@ -25,10 +25,10 @@ python pubmed7.py
 >$ python pubmed7.py
 >
 >search term
-
-   Publication title.
-     ['Author A', 'Author B', 'Author C', 'Author D']
-     Journ. 2021 Mar 30:1-8. doi: 10.1159/000513871.
+>
+>   Publication title.
+>     ['Author A', 'Author B', 'Author C', 'Author D']
+>     Journal Title. 2021 Mar 30:1-8. doi: nn.nnnn/nnnnnnnn.
 
 
 
