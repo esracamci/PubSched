@@ -1,9 +1,11 @@
 # PubSched
-Runs pubmed7 once a week, intended to be implemented as a Slack bot to scan for publications with certain keywords or new publications from lab alumni.
+Runs pubmed7 once a week.
 
 
 # pubmed7
-pubmed7 is bit of code that retrieves PubMed entries published within the last seven days.
+pubmed7 is bit of code that retrieves PubMed entries published within the last seven days. 
+
+It was intended to be the base for a Slack bot that would scan for publications with certain keywords or new publications from lab alumni.
 
 Search parameters are defined by the value <a href="https://www.ncbi.nlm.nih.gov/books/NBK25499/">reldate</a> and the contents of terms.txt. 
 
